@@ -20,7 +20,7 @@ Two tensioners are provided in each module to avoid any slack in the timing belt
 
 The custom-made motor coupling connects the motor to the pulleys. 4 countersunk screws of M3 size are used to tighten the motor coupling to the motor's rotor. The shaft is attached to the motor coupling and the pulley of 20 teeth is locked to the shaft. The threaded holes are 18mm apart diagonally and the shaft is 5mm in diameter. The material used is stainless steel, as aluminum parts tend to bend, and steel is three times stronger than aluminum. Since the motor coupling is responsible for transmitting power from the motor to the rest of the actuation module, it is necessary to have a stronger material for the motor coupling.
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Motor%20Coupling/motorcoupling1.png" width="350"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Motor%20Coupling/motorcoupling2.png" width="350"/>  |
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Motor%20Coupling/motorcoupling1.png" width="350"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Motor%20Coupling/motorcoupling2.png" width="350"/>  |
 |:------:|:------:|
 |CAD Model|Rear View|
 
@@ -28,7 +28,7 @@ The custom-made motor coupling connects the motor to the pulleys. 4 countersunk 
 
 The hip-to-hip attachment, along with abduction-flexion coupling, connects the abduction module to the flexion module. Both modules are bolted to each other from the side of the abduction module. During the assembly of the modules, the hip-to-hip attachment is on the side of the flexion module and the abduction-flexion coupling is in the abduction module. Six M3 screws are bolted from the coupling's side to ensure proper rotation of the flexion module once the abduction motor is engaged. This part is put in a slit provided in the base part of the flexion module as a loose fit and once they are bolted, it will restrict any sort of relative motion with the flexion module resulting in a revolute joint between abduction and flexion modules.
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Hip-to-hip%20attachment/Front%20View.png" width="330"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Hip-to-hip%20attachment/Side%20View.png" width="330"/>  | <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Hip-to-hip%20attachment/Rear%20View.png" width="330"/> |
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Hip-to-hip%20attachment/Front%20View.png" width="330"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Hip-to-hip%20attachment/Side%20View.png" width="330"/>  | <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Hip-to-hip%20attachment/Rear%20View.png" width="330"/> |
 |:------:|:------:|:------:|
 |Front View|Side View|Rear View|
 
@@ -36,7 +36,7 @@ The hip-to-hip attachment, along with abduction-flexion coupling, connects the a
 
 The joint couplings are parts used to connect two actuator modules. Two such distinct couplings are used in the biped: abduction-flexion coupling and flexion-thigh coupling (thigh-shank coupling uses the same design). As the names suggest, abduction-flexion coupling acts as the joint between the hip abduction and flexion modules, flexion-thigh coupling as the joint between the hip flexion and thigh modules, and thigh-shank one as the joint between the thigh and shank modules. In all of them, the output pulley (the larger pulley of the second belt-pulley reduction stage) is bolted to the coupling using two M3 bolts (14mm apart diametrically). In the case of abduction-flexion coupling, the adjacent module, which is the flexion module, is bolted from the abduction module's side. Meanwhile, in the case of flexion-thigh and thigh-shank couplings, the adjacent modules (thigh and shank, respectively) are bolted from outside (i.e. side of the adjacent modules) using six M3 bolts.
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Joint%20Coupling/coupling1.png" width="330"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Joint%20Coupling/coupling3.png" width="330"/>  | <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Joint%20Coupling/coupling2.png" width="330"/> |
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Joint%20Coupling/coupling1.png" width="330"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Joint%20Coupling/coupling3.png" width="330"/>  | <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Joint%20Coupling/coupling2.png" width="330"/> |
 |:------:|:------:|:------:|
 |Front View|Section View|Rear View|
 
@@ -44,7 +44,7 @@ The joint couplings are parts used to connect two actuator modules. Two such dis
 
 The foot is made of PMC-780, a urethane rubber prepared by mixing Part A and Part B in a 2:1 ratio by weight or volume. Part A and Part B comprise resins and hardening agents, respectively. After mixing, they are poured into a mold with a constant flow rate to avoid bubble formation. The mixture is then undisturbed for 48 hours, after which it is removed from the mold. The mold is to be sprayed with a heavy-duty silicone spray before pouring the mixture for easier detachment from the mold surface after solidification.
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Foot/Foot.png" width="350"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Foot/Mould.png" width="350"/>  |
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Foot/Foot.png" width="350"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Foot/Mould.png" width="350"/>  |
 |:------:|:------:|
 |CAD Model of the Foot|CAD Model of the Mould|
 
