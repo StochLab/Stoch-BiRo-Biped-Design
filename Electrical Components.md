@@ -6,7 +6,7 @@ dynamic response. KV300 here indicates the motor performs 300 revolutions per mi
 
 <div class="tg-wrap" align="center"><table><thead><tr><th colspan="2">Motor Specifications</th></tr></thead><tbody><tr align = "center"><td>Motor Size</td><td>55.6mm * 30mm (OD * Width)</td></tr><tr align = "center"><td>Shaft Diameter</td><td>6mm</td></tr><tr align = "center"><td>KV</td><td>300</td></tr><tr align = "center"><td>Motor Weight</td><td>108g</td></tr><tr align = "center"><td>Peak Current (180s)</td><td>20A</td></tr><tr align = "center"><td>Maximum Power (180s)</td><td>500W</td></tr><tr align = "center"><td>Maximum Torque</td><td>0.5 N-m</td></tr></tbody></table></div>
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/Motor.jpg" width="330"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/Motor2.jpg" width="330"/>  | 
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/Motor.jpg" width="330"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/Motor2.jpg" width="330"/>  | 
 |:------:|:------:|
 |Front View|Rear View|
 
@@ -21,7 +21,7 @@ the center of the driver’s rearview.
 
 <div class="tg-wrap" align="center"><table><thead><tr><th colspan="2">Moteus r4.11 Driver Specifications</th></tr></thead><tbody><tr align="center"><td>Peak Phase Current</td><td>100A</td></tr><tr align="center"><td>Voltage Input</td><td>10-44V</td></tr><tr align="center"><td>KV</td><td>300</td></tr><tr align="center"><td>Temperature</td><td>-40 to 85 deg C</td></tr><tr align="center"><td>Peak Electrical Power</td><td>500W</td></tr><tr align="center"><td>Control Rate</td><td>15 - 30 kHz</td></tr></tbody></table></div>
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/moteus.jpg" width="330"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/moteus2.jpg" width="330"/>  | 
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/moteus.jpg" width="330"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/moteus2.jpg" width="330"/>  | 
 |:------:|:------:|
 |Front View|Rear View|
 
@@ -29,7 +29,7 @@ the center of the driver’s rearview.
 
 An inertial measurement unit (IMU) collects and outputs accelerometer, gyroscope, and magnetometer data, fully synchronized and calibrated. The IMU used in the biped is Xsens MTi-610 IMU. It is mounted on the torso plate to estimate the robot's position and orientation, or in other words, motion tracking. To facilitate seamless communication between the IMU and the robot's control systems, a Raspberry Pi serves as the intermediary, connecting the IMU via the Controller Area Network (CAN) protocol. This protocol ensures reliable and efficient data transmission, enabling real-time updates and integration of the IMU data into the robot's overall control framework.
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/imu.png" width="330"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/pdb.jpg" width="330"/>  | 
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/imu.png" width="330"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/pdb.jpg" width="330"/>  | 
 |:------:|:------:|
 |Xsens MTi-610 IMU|PDB|
 
@@ -53,6 +53,6 @@ MJBOTS Pi3hat is a daughterboard for a Raspberry Pi, which provides a power inpu
 
 One of the notable features of the Pi3hat is its inclusion of independent 5Mbps CAN-FD buses. These CAN-FD buses serve as communication channels, utilizing the CAN-FD protocol, specifically employed for the biped application. This allows for seamless data exchange and control between the Raspberry Pi and other components or modules within the robot system. By connecting the Pi3hat to the Raspberry Pi, the Pi3hat effectively becomes a registered hat, tightly integrated with the Raspberry Pi's hardware and software ecosystem. This integration streamlines the overall robot control process, enabling efficient communication and power management, and simplifying the overall system architecture.
 
-|<img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/rpi.jpg" width="330"/> |  <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/pi3hat.jpg" width="330"/>  | <img src="https://github.com/Karthik-Rajgopal/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/rpi%2Bpi3hat.jpg" width="330"/> |
+|<img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/rpi.jpg" width="330"/> |  <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/pi3hat.jpg" width="330"/>  | <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Electrical%20Components/rpi%2Bpi3hat.jpg" width="330"/> |
 |:------:|:------:|:------:|
 |Raspberry Pi (RPi)|Pi3Hat|RPi + Pi3Hat|
