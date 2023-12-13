@@ -7,12 +7,12 @@ This repository provides the design files for [Stoch-BiRo](https://tayalmanan28.
 <!--   <strong>Stoch BiRo</strong> -->
 </div>
 
+The Biped consists of a Torso and two 3-DOF Legs as described below:
+
 <div align="center">
   <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Assembly%20files/Master%20Assembly.jpg" height="350">
   <img src="https://github.com/StochLab/Stoch-BiRo-Biped-Design/blob/main/Images/Assembly%20files/Master%20Assembly%20(Exploded%20View).jpg" height="350">  
 </div>
-
-The Biped consists of a Torso and two 3-DOF Legs as described below:
 
 ## Torso
 
